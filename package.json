@@ -1,7 +1,7 @@
 {
   "name": "graphix-effect",
   "version": "0.1.0",
-  "homepage": "https://ayeshaq27.github.io/graphix-effect",
+  "homepage": "https://graphixeffect.com/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",

@@ -5,12 +5,12 @@
   
 }
 body {
-  background: linear-gradient(104deg, #a594e197, #ffffff, #b7ccf5cc);
+  background: linear-gradient(104deg, #a594e1, #ffffff, #b7ccf5);
     background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 19s ease infinite;
-    -moz-animation: AnimationName 19s ease infinite;
-    animation: AnimationName 19s ease infinite;
+    -webkit-animation: AnimationName 20s ease infinite;
+    -moz-animation: AnimationName 20s ease infinite;
+    animation: AnimationName 20s ease infinite;
   /* background: white;   */
 
   

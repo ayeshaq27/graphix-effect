@@ -16,12 +16,13 @@ function Home() {
         <Header />
       </Container>
     {/* About Us Title*/}
-      <Container sx={{marginTop: '50px'}}>
+      <Container sx={{marginTop: '10%', marginRight: '10px'}}>
         <Box className='title'
           sx={{
             position:'relative',
             display: 'flex',
-            justifyContent: 'flex-end'
+            justifyContent: 'flex-end',
+          
           }}
         >
           <Box className='square' 
@@ -43,7 +44,7 @@ function Home() {
                 color:'black',
                 margin: '5px',
                 fontFamily: 'Montserrat, sans-serif',
-                fontSize: {xs:'35px', md:'70px'},
+                fontSize: {xs:'35px', md:'50px'},
                 fontWeight: '400'
               }} >
               <p style={{ border: 'dashed 2px black', position:'relative', padding: '10px'}} >

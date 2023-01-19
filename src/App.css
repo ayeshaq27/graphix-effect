@@ -5,9 +5,8 @@
   
 }
 body {
-  background: radial-gradient(64.83% 64.83% at 50% 50%, #E2D2C6 0%, #44290d 100%);
-  backdrop-filter: blur(200px);
-  background-size: 600% 600%;
+  background: linear-gradient(104deg, #a594e1, #ffffff, #b7ccf5);
+    background-size: 600% 600%;
 
     -webkit-animation: AnimationName 20s ease infinite;
     -moz-animation: AnimationName 20s ease infinite;

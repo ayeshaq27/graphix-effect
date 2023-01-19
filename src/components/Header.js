@@ -8,21 +8,31 @@ function Header() {
   return (
     
       <Box sx={{
+        background: {xs:'url(/blurbgmb.png)', sm:'url(/blurbgmbsm.png)', md:'url(/blurbg.svg)'},
+        backgroundPosition: 'cover',
+        backgroundRepeat: 'no-repeat',
+        margin: '0px',
+        textAlign: 'center',
+        color: 'black',
+        letterSpacing: '0.2em',
+        fontFamily: 'Montserrat, sans-serif',
+        fontWeight: '400',
+        fontSize: {xs:'12vw', lg:'10vw'},
+        width: '100%',
+        height: '100%',
         display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
+        flexDirection: {xs:'column'},
+        justifyContent: 'space-evenly',
         alignItems: 'center',
-        margin: '0 auto',
-        height: {xs:'40vh', md: '80vh'}
-      }}>
-         <img src="/mansaNew.svg"
-              style={{
-                  width: '40vw',
-                  display: 'block',
-              }}   
-              alt="logo"
-          />
-          <h1 style={{fontFamily: 'Anek Odia', fontWeight: '300', fontSize: '4vw'}}>MANSA RESIDENCES</h1>
+        paddingTop: '10px',
+        paddingBottom: '8px',
+        marginBottom: '20px',
+
+      }} className='css-typing' >
+  
+        <p style={{marginBottom: '10px', backdropFilter: 'blur(10px)'}} >DESIGN.</p>
+        <p  style={{marginBottom: '10px', backdropFilter: 'blur(10px)'}} >DEVELOP.</p>
+        <p style={{backdropFilter: 'blur(10px)'}} >DELIVER.</p>
       </Box>
      
 

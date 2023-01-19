@@ -30,22 +30,28 @@ function NavBar() {
       <nav className='navbar'>
         
         <div className='navbar-container'>
-          
+          <Link to="/" className='navbar-logo' onClick={closeMobileMenu} >
+            <img src='/graphix-logo-des.png' width='300px' alt='the graphix effect logo' />
+          </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                HOME
+              <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                SERVICES
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/portfolio' className='nav-links' onClick={closeMobileMenu}>
-                PORTFOLIO
+              <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                PROJECTS
               </Link>
             </li>
-            
+            <li className='nav-item'>
+              <Link to='/reviews' className='nav-links' onClick={closeMobileMenu}>
+                REVIEWS
+              </Link>
+            </li>
             <li className='nav-item'>
               <Link to='/contact-us' className='nav-links' onClick={closeMobileMenu}>
                 CONTACT US

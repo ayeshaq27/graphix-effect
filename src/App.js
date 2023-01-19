@@ -4,7 +4,6 @@ import Title from './components/Title.tsx';
 import './App.css';
 import NavBar from './components/NavBar';
 import Home from './components/pages/Home';
-import Portfolio from './components/pages/Portfolio';
 
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
         <NavBar />
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/portfolio' element={<Portfolio/>}/>
         </Routes>
       </Router>
    

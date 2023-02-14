@@ -1,0 +1,62 @@
+:root {
+  --primary: #CD9A49;
+}
+.name {
+  flex-basis: auto;
+  flex-grow: 1;
+  height: 6vh;
+}
+.email{
+  height: 6vh;
+}
+.email::placeholder, .message::placeholder, .name::placeholder {
+  color:black;
+  font-family: Anek Odia;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.email , .message {
+  width: 100%;
+}
+.email , .message , .name {
+  background-color: transparent;
+  border: 1.5px solid #10423D ;
+  color: black;
+  padding-top: 0.5px;
+  padding-left: 10px;
+}
+.email:focus , .message:focus , .name:focus {
+  background-color: transparent;
+  border: 2px solid #10423D ;
+  color: black;
+  padding: 3px;
+}
+.message {
+  resize: none;
+  padding-top: 6px;
+}
+.title {
+  width: 100%;
+  text-align: center;
+}
+.submitBttn {
+  background-color: var(--primary) !important;
+  color: #10423D !important;
+  border: 1px solid var(--primary) !important;
+}
+.contact-Form {
+  font-family: Anek Odia;
+  width: 70vw;
+  height: 50vh;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  padding: 5vw;
+  background: rgba(16, 66, 61, 0.06);
+  box-shadow: 2px 2px 6px 4px rgba(0, 0, 0, 0.08);
+}

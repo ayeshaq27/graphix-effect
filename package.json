@@ -1,9 +1,9 @@
 {
   "name": "mansa-residences",
   "version": "0.1.0",
-  "homepage": "mansares.ca",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.0",
     "@emotion/styled": "^11.10.0",
     "@mui/material": "^5.9.2",

@@ -5,13 +5,15 @@
   
 }
 body {
-  background: linear-gradient(104deg, #a594e1, #ffffff, #b7ccf5);
-    background-size: 600% 600%;
+  /* background: radial-gradient(64.83% 64.83% at 50% 50%, #E2D2C6 0%, #44290d 100%); */
+  background: radial-gradient(93.48% 93.48% at 50% 50%, #E2D2C6 0%, #44290d 90%);
+  backdrop-filter: blur(400px);
+  background-size: 100% 100%;
 
-    -webkit-animation: AnimationName 20s ease infinite;
+   /* -webkit-animation: AnimationName 20s ease infinite;
     -moz-animation: AnimationName 20s ease infinite;
-    animation: AnimationName 20s ease infinite;
-  /* background: white;   */
+    animation: AnimationName 15s ease infinite; 
+  background: white;   */
 
   
 }
